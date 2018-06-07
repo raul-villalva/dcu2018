@@ -1,0 +1,38 @@
+header {
+    height: 150px;
+    background-color: cornflowerblue;
+    margin-top: 0px;
+    top: 0;
+    width: 100%;
+    margin-left: 0px;
+}
+
+h1 {
+    float: left;
+    width: 60%;
+}
+
+section {
+
+    height: 800px;
+}
+
+
+footer {
+    height: 30px;
+    background-color: cornflowerblue;
+    margin-top: 0px;
+    top: 0;
+    margin-left: 0px;
+}
+
+.login{
+    float: left;
+
+    padding-top: 1px;
+}
+.buscador{
+    float: left;
+
+    padding-top: 1px;
+}
