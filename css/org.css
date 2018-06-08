@@ -1,38 +1,157 @@
-header {
-    height: 150px;
-    background-color: cornflowerblue;
-    margin-top: 0px;
-    top: 0;
-    width: 100%;
-    margin-left: 0px;
-}
-
 h1 {
+	    padding-top: 45px;
+        padding-left: 60px;
+	
+}
+
+#buscador {
+	float: right;
+    top: -86px;
+    right: 200px;
+    display: block;
+    position: relative;
+}
+
+#links {
+	    right: -220px;
+		height: 25px;
+		top: -85px;
+		display: inline-block;
+		position: relative;
+		float: right;
+}
+
+#links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#links ul li {
     float: left;
-    width: 60%;
 }
 
-section {
-
-    height: 800px;
+#links ul li {
+    display: block;
+   
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
 }
 
-
-footer {
-    height: 30px;
-    background-color: cornflowerblue;
-    margin-top: 0px;
-    top: 0;
-    margin-left: 0px;
+header {
+	height: 120px;
+    background-color: blue;
 }
 
-.login{
+#footer {
+	height: 120px;
+    background-color: blue;
+}
+
+#links_footer {
+    float: right;
+    right: 77px;
+    top: 20px;
+    position: relative;
+}
+
+#links_footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#links_footer ul li {
     float: left;
-
-    padding-top: 1px;
 }
-.buscador{
-    float: left;
 
-    padding-top: 1px;
+#links_footer ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;  
 }
+
+.copyright {
+    top: 40px;
+    left: 29px;
+    position: relative;
+}
+
+.principal article {
+	float:left;
+}
+.principal article p {
+	text-align: center;
+}
+
+.secundarios {
+	position: relative;
+    top: -265px;
+}
+
+.secundarios h5 {
+	float:left;
+}
+.secundario h5 {
+	width:	100%;
+}
+
+.secundarios .bloque div img {
+	float:left;
+}
+.secundarios .bloque div p {
+	padding:2px;
+	float:left;
+	border-color: blue;
+	border-style: solid;
+}
+
+.secundarios .bloque  {
+	    top: 304px;
+    position: relative; 
+
+}
+
+.secundarios .bloque .div  {
+	width: 200px; 
+    
+}
+   
+
+
+.login  {
+	position: relative;
+    left: 348px;
+    top: 75px;
+
+}
+
+.login table {
+	border:solid;
+
+}
+
+.register  {
+	position: relative;
+    left: 348px;
+    top: 10px;
+
+}
+
+.register table {
+	border:solid;
+}
+
+.articulo {
+	position:relative;
+	left:50px;
+}
+
+
+.articulo ul {
+	list-style:none;
+}
+
