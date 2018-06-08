@@ -99,8 +99,8 @@ header {
 	width:	100%;
 }
 
-.secundarios .bloque div img {
-	float:left;
+.secundarios .bloque table {
+	width:20%;border:color:blue;padding:5px;float:left; border-style:solid;
 }
 .secundarios .bloque div p {
 	padding:2px;
